@@ -1,9 +1,282 @@
-<!DOCTYPE html>
-<html>
-  <body>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.typekit.net/fwo1rup.css">
 
-  </body>
+        <title>Harry Xiong</title>
+    </head>
+
+    <body>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class = "nav-item-link" href="#intro-page">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-item-link" href = "#about-me">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-item-link" href="#experience">experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-item-link" href = "#ds-projects">projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <div class = "container-fluid">
+
+            <div class="row intro-page" id = "intro-page">
+
+                 <div class = "name-and-contact-info">
+                    <h1 class = "name"> Harry <br> Xiong </h1>
+                    <div class = "contact-info">
+                        <a href="./assets/resume.pdf" target="_blank"> resume </a> /
+                        <a href="https://github.com/harryxiong13" target="_blank"> github </a> /
+                        <a href="https://www.linkedin.com/in/harryxiong/" target="_blank"> linkedin </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row section" id = "about-me">
+
+                <h2 class = "about-me-header">about me </h2>
+                <hr>
+
+                <div class = "row">
+                    <div class = "col introduction">
+
+                        <h3 class = "past-positions">
+                            computational social science @ <span class = "company">University of Chicago</span> <br>
+                        </h3>
+
+                        Hi, my name is Harry.
+                    </div>
+
+                    <div class="col">
+                        <img src = "assets/headshot.jpg" class = "headshot">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row experience section" id = "experience">
+
+                <h2 class = "experience-header"> experience </h2>
+                <hr>
+
+                <div class = "experience-section">
+
+                    <div class = "experience-subheader">education</div>
+
+                    <div class = "row">
+                        <div class = "col-1 company-logo-section">
+                            <img src = "assets/uchi.png" class = "company-logo">
+                        </div>
+                        <div class = "col-10 company-information">
+                            <div class = "company">University of Chicago</div>
+                            <div class = "date"> August 2019 - Now </div>
+                            <ul class = "description">
+                                <li> Concentration in Computational Social Science </li>
+                                <li> Coursework:  </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class = "row">
+                        <div class = "col-1 company-logo-section">
+                            <img src = "assets/emory.png" class = "company-logo">
+                        </div>
+                        <div class = "col-10 company-information">
+                            <div class = "company">Emory University</div>
+                            <div class = "date"> August 2015 - May 2019 </div>
+                            <ul class = "description">
+                                <li> Economics & Psychology </li>
+                                <li> GPA: 3.82  </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class = "experience-subheader">work</div>
+
+                    <div class = "row">
+                        <div class = "col-1 company-logo-section">
+                            <img src = "assets/whiznook.jpg" class = "company-logo">
+                        </div>
+                        <div class = "col-10 company-information">
+                            <div class = "company">Whiznook <span class = "position">Data Scientist</span></div>
+                            <div class = "date"> November 2019 - Now </div>
+                            <div class = "project-technology-section">
+                                <span class = project-technology>NLP</span>
+                                <span class = project-technology>Python</span>
+                                <span class = project-technology>AWS</span>
+                            </div>
+                            <ul class = "description">
+                                <li>Designed, implemented and visualized 9 behavioral models for an online team analytics game</li>
+                                <li>Applied sentiment analysis, topic modeling and key word analysis in NLP with RNN, NLTK and spaCy to provide instant feedback for all customers</li>
+                            </ul>
+                        </div>
+
+                        <div class="w-100"></div>
+                        <br>
+
+                        <div class = "col-1 company-logo-section">
+                            <img src = "assets/booth.jpg" class = "company-logo">
+                        </div>
+                        <div class = "col-10 company-information">
+                            <div class = "company">Booth School of Business <span class = "position">Data Analytics Researcher</span></div>
+                            <div class = "date"> Oct 2019 - May 2020 </div>
+                            <div class = "project-technology-section">
+                                <span class = project-technology>Python</span>
+                                <span class = project-technology>R</span>
+                                <span class = project-technology>Tableau</span>
+                                <span class = project-technology>SSH</span>
+                                <span class = project-technology>Econometrics</span>
+                            </div>
+                            <ul class = "description">
+                                <li>Gathered, assessed and cleaned 3 million rows of data from Nielsen Analytics consumer datasets to investigate the effect of “Chicago Soda Tax” on consumption behaviors</li>
+                                <li>Utilized Pandas library and behavioral science theories to detect a 30% drop in soda consumption after the tax</li>
+                                <li>Visualized difference-in-difference output using R and Tableau</li>
+                            </ul>
+                        </div>
+
+                        <div class="w-100"></div>
+                        <br>
+
+                        <div class = "col-1 company-logo-section">
+                            <img src = "assets/bbd.png" class = "company-logo">
+                        </div>
+                        <div class = "col-10 company-information">
+                            <div class = "company">BBD <span class = "position">Data Science Intern</span></div>
+                            <div class = "date"> June 2019 - Aug 2019 </div>
+                            <div class = "project-technology-section">
+                                <span class = project-technology>Python</span>
+                                <span class = project-technology>SQL</span>
+                                <span class = project-technology>SSH</span>
+                                <span class = project-technology>Econometrics</span>
+                            </div>
+                            <ul class = "description">
+                                <li>Built a retail risk management XGBoost model as part of a team for a major US bank</li>
+                                <li>Performed feature selection and hyperparameter tuning to lower the retail default recall by more than 1%</li>
+                                <li>Extracted and analyzed China's daily reported data across 4 sectors for BBD China New Economy Index (NEI) using SQL</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class = "experience-subheader">technology</div>
+
+                    <div class = "project-technology-section">
+                        <span class = project-technology>Python</span>
+                        <span class = project-technology>Tensorflow</span>
+                        <span class = project-technology>PyTorch</span>
+                        <span class = project-technology>R</span>
+                        <span class = project-technology>SQL</span>
+                        <span class = project-technology>Spark</span>
+                        <span class = project-technology>AWS</span>
+                        <span class = project-technology>Tableau</span>
+                        <span class = project-technology>Excel</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row section" id = "ds-projects">
+                <h2 class = "projects-header">projects</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="ds-projects/evolution.html">
+                            <img src = "assets/evolution.png" class = "cs-project-image">
+                            <div class = "cs-project-name">Evolution on Neuroscience Research: An NLP Perspective</div>
+                        </a>
+                            <div class = "cs-project-description">
+                                Analyzed neuroscience and psychology abstracts for the past 5 decades using large scale and NLP techniques
+                            </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="cs-projects/chat-room.html">
+                            <img src = "assets/chat-server.png" class = "cs-project-image">
+                            <div class = "cs-project-name">Node.JS Chatroom</div>
+                        </a>
+                            <div class = "cs-project-description">
+                                Series of chat rooms; developed with Node.js, Socket.io for communication
+                                between the client and server.
+                            </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="cs-projects/js-calendar.html">
+                            <img src = "assets/calendar.png" class = "cs-project-image">
+                            <div class = "cs-project-name">Javascript Calendar</div>
+                        </a>
+                            <div class = "cs-project-description">
+                                Online calendar created with an HTML template found online;
+                                PHP for web security and database interaction, Bootstrap for styling,and vanilla JavaScript for the functionality.
+                            </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="cs-projects/word-catcher.html">
+                            <img src = "assets/extension.png" class = "cs-project-image">
+                            <div class = "cs-project-name">Word Catcher Chrome Extension</div>
+                        </a>
+                            <div class = "cs-project-description">
+                                Chrome extension that saves words a user looks up to study later; developed with HTML, CSS, and vanilla JavaScript.
+                            </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="cs-projects/smart-guesser.html">
+                            <img src = "assets/mastermind.jpg" class = "cs-project-image">
+                            <div class = "cs-project-name">MasterMind Guessing Algorithm</div>
+                        </a>
+                            <div class = "cs-project-description">
+                                Algorithm that utilizes minimax game theory to solve MasterMind game in nearly optimal time.
+                            </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="assets/FinalProject.pdf">
+                            <img src = "assets/turing.jpeg" class = "cs-project-image">
+                            <div class = "cs-project-name">Turing Test Paper</div>
+                        </a>
+                            <div class = "cs-project-description">
+                                A paper I wrote for class about important moments in the legacy of the Turing Test.
+                            </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <a href="cs-projects/design.html">
+                            <img src = "assets/modeck1.png" class = "cs-project-image">
+                            <div class = "cs-project-name">Design Work</div>
+                        </a>
+                            <div class = "cs-project-description">
+                                Some of the logos, decks and posters I've designed over the years.
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
 </html>
