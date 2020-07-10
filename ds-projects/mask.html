@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Harry Xiong</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.typekit.net/fwo1rup.css">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class = "nav" href = "https://harry-xiong.com">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav" href = "https://harry-xiong.com/#about-me">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav" href="https://harry-xiong.com/#intro-page">resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav" href = "https://harry-xiong.com/#ds-projects">projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class = "content">
+
+            <h1>Face Mask Detector</h1>
+            <h2 class = "project-date">May, 2020</h2>
+            <h2 class = "project-technology-section">
+                <span class = project-technology>TensorFlow</span>
+                <span class = project-technology>OpenCV</span>
+                <span class = project-technology>Keras</span>
+                <span class = project-technology>CNN</span>
+            </h2>
+            <a href="https://github.com/harryxiong13/mask-detector">GitHub Repo</a>
+            <img src="../assets/mask-overall.png" class = "project-pic">
+            <span class = "project-description">
+              This project is a face mask detector that supports image and live
+              video face mask detection built with TensorFlow and OpenCV.
+              The goal of this project is to transfer data science and deep
+              learning skills learned from classes to solve a real-world problem.
+              As the COVID-19 pandemic continues to expand, the demand of face
+              mask detection grows accordingly. This project aims to help grocery
+              stores, malls and other indoor venues with the "mask-on" policy.
+            </span>
+            <img src="../assets/mask-model.png" class = "project-pic">
+            <span class = "project-description">
+              MobileNet V2 pre-processing + Concolutional Neural Networks (CNN) architecture
+            </span>
+            <img src="../assets/mask-plot.png" class = "project-pic">
+            <span class = "project-description">
+              MobileNet V2: MobileNets are a class of small, low-latency, low-power
+              models that can be used for classification, detection, and other commmon
+              tasks. Because of their small size, these are considered great deep
+              learning models to be used on mobile devices. I used the MobileNet V2
+              pre-processing to efficiently process the input images.
+
+              CNN architecture: Two layers of Conv2D and two layers of Max Pooling
+              are used. 0.3 dropout rate and callback method are applied to avoid
+              overfitting. The callback threshold is set at 0.95 to save computing resources.
+            </span>
+            <img src="../assets/mask-demo.gif" class = "project-pic">
+            <span class = "project-description">
+              A video demo of the mask detector capturing and detecting multiple faces
+            </span>
+            
+
+        </div>
+
+    </body>
+</html>
